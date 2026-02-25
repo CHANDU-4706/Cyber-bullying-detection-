@@ -33,24 +33,39 @@ The application follows a sophisticated pipeline to process text and predict bul
 
 ## 🏃‍♂️ How to Run
 
-1. **Navigate to the project directory**
-   ```bash
-   cd "cyber bully project"
-   ```
+Follow these steps to set up and run the application on your local machine:
 
-2. **Install Requirements**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 1. Clone the Project
+```bash
+git clone https://github.com/CHANDU-4706/Cyber-bullying-detection-.git
+cd "Cyber-bullying-detection-"
+```
 
-3. **Run the Application**
-   ```bash
-   streamlit run "1_🏠_CBDA.py"
-   ```
-   *Note: If you encounter an error saying `streamlit` is not recognized, use this command instead:*
-   ```bash
-   python -m streamlit run "1_🏠_CBDA.py"
-   ```
+### 2. Create a Virtual Environment (Recommended)
+This ensures that the project dependencies don't interfere with your global Python setup.
+```bash
+# Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+```bash
+streamlit run "1_🏠_CBDA.py"
+```
+*Note: If you encounter an error saying `streamlit` is not recognized, use this command instead:*
+```bash
+python -m streamlit run "1_🏠_CBDA.py"
+```
 
 <br>
 

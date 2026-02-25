@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/config.toml
+user.xlsx
+pickle/
+Dataset/
+icons/
+.vscode/
+.idea/
+*.log
